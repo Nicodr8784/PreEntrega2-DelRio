@@ -1,55 +1,18 @@
- /* font-family: 'Montserrat', sans-serif;
-font-family: 'Nunito', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif; */
+/* Error: expected ";".
+ *   ,
+ * 2 | $tipografia-principal: "Monserrat", sans-serif;
+ *   |                      ^
+ *   '
+ *   scss\utils\_variables.scss 2:22  @import
+ *   scss\main.scss 1:9               root stylesheet */
 
-
- /* -------RESETEO CSS-------  */
-
-
-
- .navbar-nav .nav-link {
-     color: black;
- }
-
- .btn-black {
-     background-color: black;
-     color: white;
- }
-
- .btn-black:hover {
-    top: 100%;
-    transition: 3s;
-    transition-delay: 1.5s.5s;
- }
-
- .btn-black:hover {
-     background-color: white;
-     border: black;
-     color: black;
- }
-
-
- .btn-form {
-    background-color: whitesmoke;
-    color: black;
-    border-radius: 1em;
- }
-
- .btn-form:hover{
-    background-color: black;
-    color: rgb(245, 246, 139);
-    border-radius: 1em;
- }
-
- .divmedia {
-color: black;
- }
-
-.logo-inicio:hover {
-transform: scale(1.1);
-}
-
-.video-media:hover {
-transform: scale(1.1);
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected ";".\a   \2577 \a 2 \2502  $tipografia-principal: "Monserrat", sans-serif;\a   \2502                       ^\a   \2575 \a   scss\\utils\\_variables.scss 2:22  @import\a   scss\\main.scss 1:9               root stylesheet';
 }

@@ -1,0 +1,59 @@
+ /* font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+ /* -------RESETEO CSS-------  */
+
+
+
+ .navbar-nav .nav-link {
+     color: black;
+ }
+
+ .btn-black {
+     background-color: black;
+     color: white;
+ }
+
+ .btn-black:hover {
+    top: 100%;
+    transition: 3s;
+    transition-delay: 1.5s.5s;
+ }
+
+ .btn-black:hover {
+     background-color: white;
+     border: black;
+     color: black;
+ }
+
+
+ .btn-form {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 1em;
+ }
+
+ .btn-form:hover{
+    background-color: black;
+    color: rgb(245, 246, 139);
+    border-radius: 1em;
+ }
+
+ .divmedia {
+color: black;
+ }
+
+.logo-inicio:hover {
+transform: scale(1.1);
+}
+
+.video-media:hover {
+transform: scale(1.1);
+}
+
+.div-todos:hover {
+    transform: scale(1.1);
+}

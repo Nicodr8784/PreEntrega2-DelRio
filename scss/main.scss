@@ -1,0 +1,15 @@
+@import "./utils/variables";
+@import "./utils/mixin";
+
+@import "./base/base";
+
+@import "./pages/index";
+@import "./pages/bio";
+@import "./pages/media";
+@import "./pages/agenda";
+@import "./pages/contacto";
+
+@import "./components/navbar";
+@import "./components/logo-inicio";
+
+
